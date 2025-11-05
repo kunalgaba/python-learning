@@ -3,7 +3,7 @@ def main():
     print_column(3)
     print_column2(3)
     print_row(4)
-    print_grid(3)
+    print_grid(10)
 
 def print_column(height):
     for _ in range(height):
