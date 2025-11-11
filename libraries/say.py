@@ -1,4 +1,4 @@
-#To install third party package - pip install cowsay
+# To install third party package - pip install cowsay
 import cowsay
 import sys
 

@@ -4,10 +4,9 @@ students = []
 with open("students.csv", "r") as file:
     reader = csv.DictReader(file)
     for row in reader:
-        student = {"name":row["name"], "house":row["home"]}
+        student = {"name": row["name"], "house": row["home"]}
         students.append(student)
 
 
-for student in sorted(students,key=lambda student: student["name"]):
+for student in sorted(students, key=lambda student: student["name"]):
     print(f"{student['name']} is in {student['house']}")
-
