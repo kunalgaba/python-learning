@@ -1,10 +1,11 @@
-
 name = " kunal gaba "
 
+
+print(name.capitalize())
 print(name.strip())
 print(name.strip().title())
 
-#String slicing
+# String slicing
 phone = "617-495-1000"
 print(phone[0:3])
 print(phone[8:])

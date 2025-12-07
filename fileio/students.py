@@ -5,6 +5,6 @@ with open("students.csv", "r") as file:
         student = {"name": name, "house": house}
         students.append(student)
 
-
+# this is how you use lambda function
 for student in sorted(students, key=lambda student: student["name"]):
     print(f"{student['name']} is in {student['house']}")

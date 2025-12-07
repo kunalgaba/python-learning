@@ -30,6 +30,6 @@ total = Vault(galleons,sickles,knuts)
 print(total)
 """
 
-#This is how operator overloading works - with __add__ method
+# This is how operator overloading works - with __add__ method
 total = potter + weasley
 print(total)
